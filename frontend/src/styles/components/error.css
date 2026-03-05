@@ -1,0 +1,47 @@
+.error-message {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.error-message-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.error-message-icon {
+  color: var(--color-danger);
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.error-message-body {
+  flex: 1;
+}
+
+.error-message-title {
+  color: #991b1b;
+  font-weight: 500;
+}
+
+.error-message-text {
+  color: #dc2626;
+  margin-top: 0.25rem;
+}
+
+.error-message-retry-btn {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #dc2626;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.error-message-retry-btn:hover {
+  color: #991b1b;
+}

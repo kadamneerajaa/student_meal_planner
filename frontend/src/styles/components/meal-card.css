@@ -1,0 +1,96 @@
+.meal-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 1.5rem;
+  transition: box-shadow 0.3s;
+}
+
+.meal-card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.meal-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.meal-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.meal-card-favorite-btn {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: color 0.2s;
+}
+
+.meal-card-favorite-btn:hover {
+  color: var(--color-danger);
+}
+
+.meal-card-favorite-btn.active {
+  color: var(--color-danger);
+}
+
+.meal-card-info {
+  margin-bottom: 1rem;
+}
+
+.meal-card-info-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.meal-card-info-label {
+  font-weight: 500;
+  width: 5rem;
+}
+
+.meal-card-macros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0.75rem;
+  background-color: #f9fafb;
+  border-radius: var(--radius-md);
+  margin-bottom: 1rem;
+}
+
+.meal-card-macro {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.meal-card-macro-value {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 0.25rem;
+}
+
+.meal-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.meal-card-cost {
+  display: flex;
+  align-items: center;
+  color: var(--color-success);
+  font-weight: 600;
+}

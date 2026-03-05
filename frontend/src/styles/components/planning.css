@@ -1,0 +1,124 @@
+.day-plan-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.day-plan-card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.day-plan-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.day-plan-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.day-plan-card-meals {
+  margin-bottom: 1rem;
+}
+
+.day-plan-card-meal-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.day-plan-card-summary {
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.day-plan-card-summary-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.meal-slot {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+}
+
+.meal-slot-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.meal-slot-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.meal-slot-title {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.meal-slot-remove-btn {
+  background: none;
+  border: none;
+  color: var(--color-danger);
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: color 0.2s;
+}
+
+.meal-slot-remove-btn:hover {
+  color: #dc2626;
+}
+
+.meal-slot-content {
+  margin-bottom: 0.5rem;
+}
+
+.meal-slot-meal-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.meal-slot-macros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.meal-slot-empty {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px dashed var(--border-color);
+  border-radius: var(--radius-lg);
+  color: #9ca3af;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+}
+
+.meal-slot-empty:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}

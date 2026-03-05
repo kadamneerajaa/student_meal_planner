@@ -1,0 +1,141 @@
+.summary-card-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .summary-card-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.summary-stat-box {
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.summary-stat-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.summary-stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.summary-stat-goal {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 0.25rem;
+}
+
+.summary-stat-status {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.goal-progress-item {
+  margin-bottom: 1rem;
+}
+
+.goal-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.goal-progress-bar-container {
+  width: 100%;
+  height: 0.75rem;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.goal-progress-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.3s;
+}
+
+.goal-progress-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.weekly-summary-section {
+  margin-bottom: 1.5rem;
+}
+
+.weekly-summary-totals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .weekly-summary-totals {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.weekly-summary-budget {
+  padding: 1rem;
+  background: linear-gradient(135deg, #d1fae5 0%, #dbeafe 100%);
+  border-radius: var(--radius-lg);
+  margin-bottom: 1.5rem;
+}
+
+.weekly-summary-budget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.weekly-summary-budget-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.weekly-summary-goals {
+  padding: 1rem;
+  background-color: #eef2ff;
+  border-radius: var(--radius-lg);
+}
+
+.weekly-summary-goal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.ingredient-list {
+  margin-top: 1rem;
+}
+
+.ingredient-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.ingredient-list-item:last-child {
+  border-bottom: none;
+}
