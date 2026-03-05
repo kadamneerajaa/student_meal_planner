@@ -1,0 +1,8 @@
+studentId,dayName,breakfastId,lunchId,dinnerId,quickMealIds
+S001,Monday,B-002,,,
+S001,Tuesday,Q-001,,,
+S001,Wednesday,M5,,,
+S001,Thursday,,,,
+S001,Friday,,,,
+S001,Saturday,,,,
+S001,Sunday,,,,

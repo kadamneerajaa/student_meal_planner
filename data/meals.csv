@@ -1,0 +1,5 @@
+id,name,mealType,dietaryPreference,calories,protein,carbs,fat,cost,ingredients,favoriteFlag,prepTimeCategory
+B-002,Scrambled Eggs Toast,BREAKFAST,,400,25.0,40.0,18.0,5.0,Eggs|Bread|Butter,true,
+D-001,Salmon with Rice,DINNER,,650,40.0,60.0,25.0,12.0,Salmon|Rice|Lemon,false,8
+Q-001,Protein Shake,SNACK,vegetarian,200,25.0,15.0,5.0,3.5,Protein Powder|Milk|Banana,true,5
+M4,Grilled Chicken Salad,BREAKFAST,VEGAN,4,0.0,0.0,0.0,15.0,Chicken Breast|Lettuce|Tomatoes,false,
